@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iTunes Music</string>
+    <string name="album_name_edit_text_hint">Enter album name</string>
+    <string name="find_album_button_text">Find</string>
+    <string name="empty_album_list_message">No albums found</string>
+    <string name="no_album_info_message">No album information</string>
+</resources>

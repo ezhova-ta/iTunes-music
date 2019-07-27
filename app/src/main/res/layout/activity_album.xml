@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/AlbumDetailContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.album.AlbumActivity">
+
+    <ProgressBar
+        style="@style/dataLoadingProgressBar"
+        android:id="@+id/albumInfoLoadingProgress" />
+
+    <ImageView
+        style="@style/AlbumArtwork"
+        android:id="@+id/albumArtwork" />
+
+    <TextView
+        style="@style/AlbumName"
+        android:id="@+id/albumName" />
+
+    <TextView
+        style="@style/AlbumArtistName"
+        android:id="@+id/albumArtistName" />
+
+    <TextView
+        style="@style/AlbumCopyright"
+        android:id="@+id/albumCopyright" />
+
+    <android.support.v7.widget.RecyclerView
+        style="@style/SongList"
+        android:id="@+id/songList" />
+
+</LinearLayout>

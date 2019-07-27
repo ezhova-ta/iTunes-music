@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/AlbumListItemContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        style="@style/AlbumListItemName"
+        android:id="@+id/albumListItemName" />
+
+    <TextView
+        style="@style/AlbumListItemArtistName"
+        android:id="@+id/albumListItemArtistName" />
+
+</LinearLayout>

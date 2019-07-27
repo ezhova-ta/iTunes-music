@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/SongListItemContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        style="@style/SongListItemName"
+        android:id="@+id/songListItemName" />
+
+    <TextView
+        style="@style/SongListItemDuration"
+        android:id="@+id/songListItemDuration" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Музыка iTunes</string>
+    <string name="album_name_edit_text_hint">Введите название альбома</string>
+    <string name="find_album_button_text">Найти</string>
+    <string name="empty_album_list_message">Альбомы не найдены</string>
+    <string name="no_album_info_message">Нет информации об альбоме</string>
+</resources>

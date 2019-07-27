@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/AlbumListContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.album.list.AlbumListActivity">
+
+    <EditText
+        style="@style/AlbumNameEditText"
+        android:id="@+id/albumNameEditText"
+        android:hint="@string/album_name_edit_text_hint" />
+
+    <Button
+        style="@style/FindAlbumButton"
+        android:id="@+id/findAlbumButton"
+        android:onClick="onFindAlbumButtonClick"
+        android:text="@string/find_album_button_text" />
+
+    <ProgressBar
+        style="@style/dataLoadingProgressBar"
+        android:id="@+id/albumListLoadingProgress" />
+
+    <android.support.v7.widget.RecyclerView
+        style="@style/AlbumList"
+        android:id="@+id/albumList" />
+
+</LinearLayout>
